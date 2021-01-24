@@ -1,5 +1,5 @@
 .button {
-    background-color: #00decd
+    background-color: #00decd;
     border: none;
     color: white;
     padding: 12px 26px;
@@ -20,6 +20,16 @@
   .marvoltbutton:hover {
         background-color: #0105eb;
   }
+
+.opciobutton {
+      font-size: 12px;
+        background-color: #00decd;
+  }
+
+  .opciobutton:hover {
+        background-color: #00a5de;
+  }
+
 
   .center {
     display: block;
