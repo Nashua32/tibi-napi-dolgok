@@ -7,19 +7,19 @@ let maidatum = String((new Date()).getFullYear())+ String((new Date()).getMonth(
 if (localStorage.datum) {
     if (maidatum != localStorage.datum) {
         localStorage.datum = maidatum
-        localStorage.napiszam  = Math.floor(Math.random() * oltasok.length)
+        localStorage.napioltas  = Math.floor(Math.random() * oltasok.length)
     }
-    if (! localStorage.napiszam) {
-        localStorage.napiszam = 0
+    if (! localStorage.napioltas) {
+        localStorage.napioltas = 0
     }
 }
 else {
     localStorage.datum =  String((new Date()).getFullYear())+ String((new Date()).getMonth()) + String((new Date()).getDate())
 }
 
-document.getElementById("szoveg").innerHTML = oltasok[parseInt(localStorage.napiszam)]
+document.getElementById("szoveg").innerHTML = oltasok[parseInt(localStorage.napioltas)]
 
 function ujNapi() {
-    localStorage.napiszam  = Math.floor(Math.random() * oltasok.length)
+    localStorage.napioltas  = Math.floor(Math.random() * oltasok.length)
     window.location.reload()
 }
