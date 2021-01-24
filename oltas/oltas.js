@@ -1,6 +1,11 @@
 oltasok = ["Te csirke!",
-"Buta vagy!",
-"Kevés vagy, mint árvaházban a szülői értekezlet!"]
+          "Buta vagy!",
+          "Kevés vagy, mint árvaházban a szülői értekezlet!",
+          "Elpakollak!",
+          "Úgy felrúglak, hogy a torrent se szed le!",
+          "Te diákhitelképű!",
+          "Te módosult levelekből álló szaporítóhajtásképű!",
+          "Rude vagy, mint egy kalaprúd!"]
 
 let maidatum = String((new Date()).getFullYear())+ String((new Date()).getMonth()) + String((new Date()).getDate())
 
